@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Figma Export</title>
+  <title>TeaRex Przepisy</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -13,12 +13,24 @@
     <div data-layer="Przepisy desktop" class="PrzepisyDesktop" style="width: 100%; height: 100%; background: var(--Background-Default-Default, white); overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 25px; display: inline-flex">
     <div data-layer="Header" data-platform="Desktop" data-state="Default" class="Header" style="align-self: stretch; padding: 32px; background: var(--Background-Default-Default, white); overflow: hidden; justify-content: flex-start; align-items: center; gap: 24px; display: inline-flex; flex-wrap: wrap; align-content: center">
         <div data-layer="Block" class="Block" style="justify-content: flex-start; align-items: center; gap: 24px; display: flex">
-            <div data-layer="Icon Button" data-size="Medium" data-state="Default" data-variant="Neutral" class="IconButton" style="width: 44px; padding: 12px; background: var(--Background-Default-Secondary, #F5F5F5); overflow: hidden; border-radius: 32px; justify-content: center; align-items: center; gap: 8px; display: flex">
-                <div data-layer="logo" class="Logo" style="width: 20px; height: 20px; position: relative">
-                    <img data-layer="logo" class="Logo" style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; background: #D9D9D9; border-radius: 9999px" src="przepisy_glowne.png" />
-                </div>
-            </div>
-        </div>
+  <a href="index.html" style="text-decoration: none;">
+    <div data-layer="Icon Button" data-size="Medium" data-state="Default" data-variant="Neutral" class="IconButton"
+         style="width: 44px; padding: 12px; background: var(--Background-Default-Secondary, #F5F5F5); overflow: hidden; border-radius: 32px; justify-content: center; align-items: center; gap: 8px; display: flex; cursor: pointer;">
+      <div data-svg-wrapper data-layer="logo" class="Logo" style="position: relative">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle cx="10" cy="10" r="10" fill="#D9D9D9"/>
+          <circle cx="10" cy="10" r="10" fill="url(#pattern0_149_1350)" fill-opacity="0.2"/>
+          <defs>
+            <pattern id="pattern0_149_1350" patternContentUnits="objectBoundingBox" width="1" height="1">
+              <use xlink:href="#image0_149_1350" transform="scale(0.00390625)"/>
+            </pattern>
+            <image id="image0_149_1350" width="256" height="256" preserveAspectRatio="none" xlink:href="herbata.jpg"/>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </a>
+</div>
         <div data-layer="Navigation Pill List" data-direction="Row" data-link-1="false" data-link-2="true" data-link-3="true" data-link-4="true" data-link-5="true" data-link-6="true" data-link-7="true" class="NavigationPillList" style="flex: 1 1 0; justify-content: flex-end; align-items: flex-start; gap: 8px; display: flex; flex-wrap: wrap; align-content: flex-start">
             <div data-layer="Navigation Pill" data-state="Default" class="NavigationPill" style="padding: 8px; border-radius: 8px; justify-content: center; align-items: center; gap: 8px; display: flex">
                 <div data-layer="Title" class="Title" style="justify-content: center; display: flex; flex-direction: column; color: var(--Text-Default-Default, #1E1E1E); font-size: 16px; font-family: Inter; font-weight: 400; line-height: 16px; word-wrap: break-word">Galeria</div>
@@ -40,12 +52,12 @@
             </div>
         </div>
     </div>
-    <div data-layer="Hero Basic" data-platform="Desktop" class="HeroBasic" style="align-self: stretch; padding-left: 64px; padding-right: 64px; padding-top: 203px; padding-bottom: 203px; background-image: url(przepisy_glowne.png); flex-direction: column; justify-content: center; align-items: flex-start; display: flex">
-        <div data-layer="Text Content Title" data-align="Center" data-has-subtitle="true" class="TextContentTitle" style="flex-direction: column; justify-content: center; align-items: flex-start; gap: 8px; display: flex">
-            <div data-layer="Title" class="Title" style="align-self: stretch; color: var(--Schemes-Inverse-Surface, #322F35); font-size: 72px; font-family: Inter; font-weight: 700; line-height: 86.40px; word-wrap: break-word">Przepisy</div>
-            <div data-layer="Subtitle" class="Subtitle" style="align-self: stretch; justify-content: center; display: flex; flex-direction: column; color: #1E1E1E; font-size: 48px; font-family: Inter; font-weight: 700; line-height: 57.60px; word-wrap: break-word">Zainspiruj się!</div>
-        </div>
+    <div data-layer="Hero Image" class="HeroImage" style="width: 1440px; padding-left: 24px; padding-right: 24px; padding-top: 190px; padding-bottom: 190px; background-image: url(herbata_proszek.jpg); flex-direction: column; justify-content: center; align-items: center; gap: 32px; display: flex">
+    <div data-layer="Text Content Title" data-align="Center" data-has-subtitle="true" class="TextContentTitle" style="flex-direction: column; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
+      <div data-layer="Title" class="Title" style="align-self: stretch; text-align: center; color: #F5F5F5; font-size: 72px; font-family: Inter; font-weight: 700; line-height: 86.40px; word-wrap: break-word">TeaRex</div>
+      <div data-layer="Subtitle" class="Subtitle" style="align-self: stretch; text-align: center; justify-content: center; display: flex; flex-direction: column; color: white; font-size: 48px; font-family: Inter; font-weight: 700; line-height: 57.60px; word-wrap: break-word; text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25)">Przepisy</div>
     </div>
+  </div>
     <div data-layer="Card Grid Content List" data-platform="Desktop" class="CardGridContentList" style="align-self: stretch; height: 1006px; padding: 64px; background: var(--Background-Default-Default, white); flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 48px; display: flex">
         <div data-layer="Text Content Heading" data-align="Start" data-has-subheading="false" class="TextContentHeading" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 8px; display: flex">
             <div data-layer="Heading" class="Heading" style="align-self: stretch; color: var(--Text-Default-Default, #1E1E1E); font-size: 24px; font-family: Inter; font-weight: 600; line-height: 28.80px; word-wrap: break-word">Jak parzyć herbatę? Przewodnik dla początkujących i pasjonatów </div>
